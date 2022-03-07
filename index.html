@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Survey Form</title>
+</head>
+<body >
+  <header class="main-header">
+    <h1>Energy Campagne Survey Form</h1>
+    <p>"Your opinion is important"</p>
+  </header>
+
+  <section class="container" >
+    <form class="main-form" >
+      <div class="form-elements">
+        <label class="labels">Name</label>
+        <input class="input-elements" type="text" placeholder="Enter Your Name">
+      </div>
+
+      <div class="form-elements"</div>
+        <label class="labels">Email</label>
+        <input class="input-elements" type="email" placeholder="Enter Your Email">
+      </div>
+
+      <div class="form-elements">
+        <label class="labels">Age</label>
+        <input class="input-elements" type="number" placeholder="Age" min="1" max="200">
+      </div>
+
+      <div class="form-elements">
+        <p>What do yo do right now?</p>
+        <select class="input-elements">
+          <option disabled selected value>Choose one of these</option>
+          <option value="student">Student</option>
+          <option value="full-time">Full-time worker</option>
+          <option value="part-time">Part-time worker</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+
+      <div class="form-elements">
+        <p>Which type of these renewable energies are you interested in?</p>
+        <label class="radio-label">
+          <input type="radio">Solar
+        </label>  
+
+        <label class="radio-label">
+          <input type="radio">Wind
+        </label>  
+
+        <label class="radio-label">
+          <input type="radio">Hydropower
+        </label>  
+      </div>
+
+      <div class="form-elements">
+        <p>Which countries would you like to volunteer? <span class="clues">(You can have multiple choices)</span></p>
+        <label class="checkbox-label">
+          <input type="checkbox">
+          India
+        </label>
+
+        <label class="checkbox-label">
+          <input type="checkbox">
+          Canada
+        </label>
+
+        <label class="checkbox-label">
+          <input type="checkbox">
+          Brazil
+        </label>
+
+        <label class="checkbox-label">
+          <input type="checkbox">
+          US
+        </label>
+      </div>
+
+      <div class="form-elements">
+        <p>Your comments:</p>
+        <textarea class="textarea-elements" name="comment" placeholder="Enter your comments here"></textarea>
+      </div>
+
+      <div class="form-elements btn">
+        <button class="btn-submit"  type="submit">Submit</button>
+      </div>
+    </form>
+  </section>
+</body>
+</html>
